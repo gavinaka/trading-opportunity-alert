@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "processed": {
+    "df839b2a87d3f7a82234efedf1f9e39f8ddf2c88e89a0a39474e118c076f04eb": {
+      "status": "skipped",
+      "reason": "smoke/integration test cleared before live automation",
+      "updated_at": "2026-07-04T22:09:07+08:00"
+    },
+    "796aa33abc07c8c5580eb9c03bcd570869a49297543351233199526a91766939": {
+      "status": "skipped",
+      "reason": "smoke/integration test cleared before live automation",
+      "updated_at": "2026-07-04T22:09:07+08:00"
+    },
+    "a2937b75c69b0fcc55c233610daebe6e0276efdadd1db2bfeafba839ca43eb38": {
+      "status": "skipped",
+      "reason": "five-source capture timed out; no complete packet",
+      "updated_at": "2026-07-04T22:18:11+08:00"
+    },
+    "53945c6b5729e27d34614dbd3553e1fec7f6a6ad83a950552cb97d24d131c3f9": {
+      "status": "skipped",
+      "reason": "生产自检中文 JSON 测试已清理",
+      "updated_at": "2026-07-04T22:39:25+08:00"
+    },
+    "70e20575245ba2c9b8557b3ef63e065e383bb81db93d26da30d9e883079bd4f2": {
+      "status": "skipped",
+      "reason": "local 2B webhook smoke test",
+      "updated_at": "2026-07-04T22:56:20+08:00"
+    },
+    "a7fce216754ff20f258cee5fb41c9782629a0ab72ecbd9f264c7408551950ca9": {
+      "status": "skipped",
+      "reason": "local key-level webhook smoke test",
+      "updated_at": "2026-07-04T23:21:10+08:00"
+    }
+  }
+}

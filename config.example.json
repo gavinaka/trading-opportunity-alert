@@ -1,0 +1,11 @@
+{
+  "trading_system_root": "C:<REPO_ROOT>",
+  "slot": "midday",
+  "trigger_win_rate": 75,
+  "trigger_operator": "gte",
+  "telegram_bot_token_env": "TELEGRAM_BOT_TOKEN",
+  "telegram_chat_id_env": "TELEGRAM_CHAT_ID",
+  "webhook_secret_env": "WEBHOOK_SECRET",
+  "send_dry_run_by_default": true,
+  "max_message_chars": 3900
+}

@@ -1,0 +1,10 @@
+﻿{
+    "started_at":  "2026-07-05T09:06:39.0644260+08:00",
+    "port":  8787,
+    "webhook_pid":  50048,
+    "tunnel_pid":  37232,
+    "notify_candidates":  true,
+    "public_url":  "https://technician-omissions-linux-thesaurus.trycloudflare.com",
+    "webhook_url":  "https://technician-omissions-linux-thesaurus.trycloudflare.com/tv-webhook",
+    "webhook_url_hint":  "Check runtime_state\\webhooks\\cloudflared_stderr.log for the trycloudflare URL."
+}

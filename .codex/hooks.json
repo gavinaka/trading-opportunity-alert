@@ -1,0 +1,29 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "py -3 \"C:\\Users\\31702\\Desktop\\Technical expert\\scripts\\ecosystem_memory.py\" hook",
+            "timeout": 20,
+            "statusMessage": "加载跨 Agent 历史记忆"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "py -3 \"C:\\Users\\31702\\Desktop\\Technical expert\\scripts\\ecosystem_memory.py\" hook",
+            "timeout": 15,
+            "statusMessage": "Matching cross-Agent historical context"
+          }
+        ]
+      }
+    ]
+  }
+}
